@@ -1,0 +1,196 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.8;
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  margin-top: 0.5em;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 0.8em;
+}
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 2%
+}
+
+.container-fluid {
+  padding: 3% 15% 0;
+}
+
+.frontpage-container {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  transform: rotate(20deg);
+  /* width: 60%; */
+  position: absolute;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width: 900px){
+  #title{
+    text-align: center;
+  }
+  .titleimage{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+
+/* FEATURES */
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position:relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.img-testimonial{
+  margin: 4% 2% 0;
+  border-radius: 100%;
+  width: 20%;
+}
+
+.carousel-item{
+  padding: 7% 20%;
+  color: white;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 2% 15% 7% 15%;
+  text-align: center;
+}
+
+.img-media {
+  width: 15%;
+  text-align: center;
+  margin: 1em;
+}
+
+/* PRICING */
+
+#pricing{
+  color: #000;
+  padding: 7% 15%
+}
+
+.card-title{
+  color: #000;
+}
+
+.card-header{
+  font-family: Montserrat, sans-serif;;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.btn-pricing{
+  width:100%;
+}
+
+
+@media (max-width: 1080px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+
+/* CALL TO ACTION! */
+#cta{
+  padding: 7% 15% 4%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  }
+
+.cta-heading{
+  font-size: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 5px;
+  color: black;
+}
+
+/*
+
+.col{
+  padding:50px 0;
+} */

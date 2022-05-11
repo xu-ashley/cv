@@ -1,0 +1,64 @@
+body {
+
+  color: #594f4f;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  color: #547980;
+  font-size: 5em;
+}
+
+h2{
+  margin: 5% 0;
+}
+
+.game-board {
+  font-size: 10em;
+  width: 600px;
+  margin: auto;
+}
+
+/* .row-1, .row-2, .row-0 */
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* col-0, col-1, col-2 */
+.row-1 {
+  border: solid #9de0ad;
+  border-width: 3px 0;
+}
+
+.cell {
+  /* border: 1px solid black; */
+  height: 200px;
+  width: 200px;
+}
+
+.col-1 {
+  border: solid #9de0ad;
+  border-width: 0 3px;
+}
+
+@media (max-width:700px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .game-board {
+    font-size: 6em;
+    width: 375px;
+  }
+
+  .cell {
+    height: 125px;
+    width: 125px;
+  }
+}

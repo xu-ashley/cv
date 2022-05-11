@@ -1,0 +1,493 @@
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: lightblue;
+  color: hsl(228, 45%, 44%);
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5 {
+  font-family: "Fraunces", serif;
+}
+
+h6 {
+  font-family: "Barlow", sans-serif;
+}
+
+/* CONTAINERS */
+/* SECTIONS */
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+p {
+  color: DimGrey;
+  color: hsl(213, 9%, 39%);
+  margin: 0;
+  /* MARGIN=0 TO GET RID OF DEFAULT TOP/BOTTOM MARGIN */
+  font-weight: 500;
+}
+
+#title {
+  background-color: black;
+  /* padding: 2% 10% 5%; */
+  padding: 1% 3% 36%;
+  background-image: url("../images/images-sunnyside/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden
+}
+
+/*
+.title-container{
+  background-image: url("images/images-sunnyside/desktop/image-header.jpg");
+
+} */
+.container-fluid {
+  padding: 0;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-size: 2.7em;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+  color: gold;
+  color: hsl(51, 100%, 49%);
+}
+
+.nav-item {
+  padding: 1% 7%;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+
+.btn-contact {
+  background-color: #fff;
+  color: #000;
+  height: 60px;
+  padding: 0 2%;
+  font-family: "Fraunces", serif;
+}
+
+.btn-contact:hover {
+  background-color: gold;
+  background-color: hsl(0, 0%, 100%, 0.3);
+  color: hsl(0, 0%, 100%);
+}
+
+.big-heading {
+  color: #fff;
+  letter-spacing: 6px;
+  font-size: 4.5em;
+  margin: 0;
+  text-align: center;
+  padding: 7% 0 0;
+}
+
+/* .white-arrow-container{
+  padding:
+} */
+.white-arrow-container {
+  margin-top: 5%;
+}
+
+.arrow-image {
+  height: 200px;
+  left: 47%;
+  position: absolute;
+}
+
+.arrow-image:hover {
+  filter: opacity(.7);
+}
+
+/* ABOUT-US CONTAINER */
+.about-us-box {
+  padding: 15% 10%;
+  text-align: left;
+}
+
+.about-us-title {
+  font-size: 2.7em;
+  font-weight: 900;
+}
+
+.about-us-text {
+  margin: 10% 0;
+}
+
+/* LEARN MORE LINKS */
+.learn-more-yellow-link {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.learn-more-yellow-link:hover {
+  color: black;
+}
+
+.learn-more-yellow-link::after {
+  background-color: gold;
+  background-color: hsl(51, 100%, 49%, 0.3);
+  border-radius: 25px;
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 213px;
+  top: 20px;
+  left: -7px;
+  z-index: -1;
+  transition: all .2s ease-in-out;
+}
+
+.learn-more-yellow-link:hover::after {
+  background-color: gold;
+  background-color: hsl(51, 100%, 49%);
+  transform: scale(1.1);
+}
+
+.learn-more-pink {}
+
+.learn-more-pink-link {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.learn-more-pink-link:hover {
+  color: black;
+}
+
+.learn-more-pink-link::after {
+  background-color: hsl(7, 99%, 70%, 0.3);
+  border-radius: 25px;
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 213px;
+  top: 20px;
+  left: -7px;
+  z-index: -1;
+  transition: all .2s ease-in-out;
+}
+
+.learn-more-pink-link:hover::after {
+  background-color: salmon;
+  background-color: hsl(7, 99%, 70%);
+  transform: scale(1.1);
+}
+
+/*
+background-color: hsl(51, 100%, 49%);
+background-color: hsl(7, 99%, 70%); */
+.about-us-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* SERVICES */
+.graphic-design-box {
+  background-image: url("../images/images-sunnyside/desktop/image-graphic-design.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding: 4% 7%;
+}
+
+.photography-box {
+  background-image: url("../images/images-sunnyside/desktop/image-photography.jpg");
+  background-position: bottom;
+  background-size: cover;
+  padding: 4% 7%;
+}
+
+.graphic-design-text {
+  padding: 80% 0 0;
+  color: seagreen;
+  color: hsl(167, 40%, 24%);
+}
+
+.photography-text {
+  padding: 80% 0 0;
+  color: darkslategrey;
+  color: hsl(198, 62%, 26%);
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 12% 7%;
+}
+
+.testimonial-heading {
+  color: LightGrey;
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 4px;
+  font-size: 2em;
+}
+
+.client-name {
+  font-size: 2rem;
+}
+
+.client-position-title {
+  color: LightGrey;
+  color: hsl(210, 4%, 67%);
+  font-size: 1.1em;
+}
+
+.testimonial-box {
+  margin: 7% 0;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-weight: 500;
+  padding: 10% 3%;
+}
+
+/* IMAGE GALLERY */
+.gallery-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #90d4c6;
+  color: #286f60;
+  padding: 5% 15% 0;
+}
+
+#footer a {
+  color: hsl(167, 40%, 24%);
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+.footer-brand {
+  margin-bottom: 6%;
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-size: 2.7em;
+  letter-spacing: 1px;
+}
+
+.footer-navigation {
+  padding: 0 2%;
+  font-size: 1em;
+}
+
+.social-icon {
+  margin: 10% 1% 5%;
+}
+
+.attribution {
+  padding: 2% 0;
+}
+
+/* Media Queries */
+/* 955? */
+@media (max-width: 1400px) {
+  .about-us-box {
+    padding: 7%
+  }
+}
+
+@media (max-width: 992px) {
+  #title {
+    background-image: url("../images/images-sunnyside/mobile/image-header.jpg");
+  }
+
+  /* .big-heading {
+    padding: 7% 0 5%;
+    font-size: 10vw;
+  } */
+  .arrow-image {
+    left: 0%;
+    position: static;
+  }
+
+  .btn-contact {
+    background-color: gold;
+    background-color: hsl(51, 100%, 49%);
+  }
+
+  .about-us-box {
+    padding: 4%;
+    text-align: center;
+    /* background-color: bisque; */
+  }
+
+  /* LEARN MORE BUTTONS */
+  .learn-more-yellow-link::after {
+    width: 203px;
+    top: 18px;
+  }
+
+  .learn-more-yellow-link::after {
+    width: 203px;
+    top: 18px;
+  }
+
+  .graphic-design-text {
+    padding-top: 120%;
+  }
+
+  .photography-text {
+    padding-top: 120%;
+  }
+
+  .testimonial-text {
+    padding: 2% 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+
+
+  /* aboutus padding: 25% 15% */
+  .about-us-box {
+    padding: 25% 15%;
+    /* background-color: mediumorchid; */
+  }
+
+  /*
+  .about-us-title {
+    font-size: 3rem;
+  } */
+  .about-us-text {
+    margin-top: 7%;
+    /* font-size: 1.6rem; */
+  }
+
+  /* LEARN MORE BUTTONS */
+  .learn-more-yellow-link::after {
+    width: 195px;
+    top: 18px;
+  }
+
+  .learn-more-yellow-link::after {
+    width: 195px;
+    top: 18px;
+  }
+
+  .graphic-design-box {
+    background-image: url("../images/images-sunnyside/mobile/image-graphic-design.jpg");
+    background-position: top;
+  }
+
+  .graphic-design-text {
+    padding: 110% 10% 10%
+  }
+
+  .photography-box {
+    background-image: url("../images/images-sunnyside/mobile/image-photography.jpg");
+    background-position: top;
+  }
+
+  .photography-text {
+    padding: 110% 10% 10%
+  }
+
+  #testimonials {
+    padding: 12% 0 0;
+  }
+
+  .testimonial-box {
+    padding: 7% 15%;
+  }
+
+  .testimonial-text {
+    padding: 2% 1%;
+  }
+
+  .gallery-image {
+    object-fit: cover;
+  }
+
+  #footer {
+    padding: 5% 0
+  }
+
+  .footer-brand {
+    margin: 10% 5%
+  }
+
+  .footer-navigation {
+    padding: 0 7%;
+  }
+
+  .social-icon {
+    margin: 20% 5%;
+  }
+}
+
+@media(max-width: 576px) {
+  .big-heading {
+    font-size: 2em;
+  }
+
+  /* .navbar-brand {
+    font-size: 10vw;
+  } */
+  .about-us-box {
+    padding: 10% 5%;
+  }
+
+  .graphic-design-text {
+    padding: 110% 2% 10%;
+  }
+
+  .photography-text {
+    padding: 110% 2% 10%;
+  }
+}
+
+@media(max-width: 500px) {
+  .arrow-image {
+    height: 100px;
+  }
+
+  .footer-navigation {
+    padding: 0 30%;
+  }
+}

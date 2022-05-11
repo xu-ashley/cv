@@ -1,0 +1,11 @@
+#portfolio, .photography-portfolio{
+  background-color: #000;
+}
+
+.section-intro, .photography-intro h1{
+  color: #fff;
+}
+
+p.lead{
+  color: GhostWhite;
+}
