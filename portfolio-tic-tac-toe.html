@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!-- CSS
+   ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vendor.css">
+
+  <link rel="stylesheet" href="css/portfolio-tic-tac-toe.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- header
+   ================================================== -->
+  <header>
+    <div class="row">
+
+      <div class="top-bar">
+        <a class="menu-toggle" href="#"><span>Menu</span></a>
+
+        <div class="logo">
+          <a href="index.html">HOME</a>
+        </div>
+
+        <nav id="main-nav-wrap">
+          <ul class="main-navigation">
+            <li class="current"><a class="smoothscroll" href="index.html" title="">Home</a></li>
+            <li><a href="index.html#about" title="">About</a></li>
+            <li><a href="index.html#portfolio" title="">Portfolio</a></li>
+            <li><a href="index.html#resume" title="">Resume</a></li>
+            <!-- <li><a href="photography.html" title="">Photography</a></li> -->
+            <li><a href="index.html#services" title="">Services</a></li>
+            <li><a class="smoothscroll" href="index.html#contact" title="">Contact</a></li>
+          </ul>
+        </nav>
+      </div> <!-- /top-bar -->
+
+    </div> <!-- /row -->
+  </header> <!-- /header -->
+
+
+
+
+
+
+  <h1 class="title">Start Game</h1>
+  <div class="game-board">
+    <div class="row">
+      <div class="cell col-0" id="0-0"></div>
+      <div class="cell col-1" id="0-1"></div>
+      <div class="cell col-2" id="0-2"></div>
+    </div>
+    <div class="row row-1">
+      <div class="cell col-0" id="1-0"></div>
+      <div class="cell col-1" id="1-1"></div>
+      <div class="cell col-2" id="1-2"></div>
+    </div>
+    <div class="row">
+      <div class="cell col-0" id="2-0"></div>
+      <div class="cell col-1" id="2-1"></div>
+      <div class="cell col-2" id="2-2"></div>
+    </div>
+  </div>
+
+  <h2 class="directions">Click on a square to start the game.</h2>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/portfolio-tic-tac-toe.js"></script>
+</body>
+
+</html>
