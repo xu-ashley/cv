@@ -43,12 +43,12 @@ if($_POST) {
  	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
+      $to = "ashley.xu321@gmail.com"
 
    if (!$error) {
 
       ini_set("sendmail_from", $siteOwnersEmail); // for windows server
-      $mail = mail($siteOwnersEmail, $subject, $message, $headers);
-      $to = "ashley.xu321@gmail.com"
+      $mail = mail($to, $siteOwnersEmail, $subject, $message, $headers);
 
 
 		if ($mail) { echo "OK"; }
