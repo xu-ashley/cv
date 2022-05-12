@@ -48,6 +48,8 @@ if($_POST) {
 
       ini_set("sendmail_from", $siteOwnersEmail); // for windows server
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
+      $to = "ashley.xu321@gmail.com"
+
 
 		if ($mail) { echo "OK"; }
       else { echo "Something went wrong. Please try again."; }
