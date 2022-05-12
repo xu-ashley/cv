@@ -20,7 +20,7 @@ function firstVisit() {
          // Set visited flag in local storage
          localStorage.setItem('visited', true);
          // Alert the user
-         alert("Hello my friend. This is your first visit.");
+         alert("Welcome to dice roll!");
          homepage();
     }
 }
