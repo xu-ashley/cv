@@ -59,3 +59,17 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.mobile-message {
+  display: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+@media only screen and (max-width:768px) {
+  .mobile-message {
+    display: block;
+  }
+}
