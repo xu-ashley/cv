@@ -5,11 +5,13 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   text-align: center;
+  line-height: normal;
 }
 
 h1 {
   color: #547980;
   font-size: 5em;
+  padding-top: 90px;
 }
 
 h2{
