@@ -26,8 +26,17 @@ $(".btn").click(function() {
 
   console.log("user: " + userClickedPattern);
 
-})
+});
 
+$(".btn").on('tap', function() {
+  var userChosenColor = $(this).attr("id");
+  userClickedPattern.push(userChosenColor);
+  // alert(userChosenColor);
+  checkClickedPattern();
+
+  playSound(userChosenColor);
+  animatePress(userChosenColor);
+});
 
 function checkClickedPattern() {
 
