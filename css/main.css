@@ -34,8 +34,6 @@
  * -------------------------------------------------------------------
  */
 @import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
-@import url("micons/micons.css");
 
 /**
  * ===================================================================
@@ -1625,6 +1623,11 @@ header .logo a {
   text-align: center;
   position: relative;
   left: 1.2rem;
+}
+
+.about-down-icon{
+  margin-left: 7px;
+  transform: translateY(2px);
 }
 
 .intro-social {
