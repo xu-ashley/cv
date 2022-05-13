@@ -2427,7 +2427,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #services {
-  /* background: #313131 url(../images/sequoia-ca-dec-2020-ashley-xu-2400x1400.jpg) no-repeat center; */
+  background: #313131 url(../images/sequoia-ca-dec-2020-ashley-xu-2400x1400.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
