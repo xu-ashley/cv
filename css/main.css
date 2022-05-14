@@ -1666,7 +1666,8 @@ header .logo a {
 @media only screen and (max-width:768px) {
   #intro {
     min-height: 660px;
-    background: #000;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
 
   .intro-content h1 {
@@ -1692,7 +1693,7 @@ header .logo a {
 
 @media only screen and (max-width:600px) {
   #intro {
-  /* background: #151515 url(../images/yosemite-jan-2021-ashley-xu-mobile.jpg) no-repeat center bottom; */
+  background: #151515 url(../images/yosemite-jan-2021-ashley-xu-mobile.jpg) no-repeat center bottom;
   }
 
   .intro-content h1 {
@@ -2523,8 +2524,7 @@ header .logo a {
 
 @media only screen and (max-width:600px) {
   #services {
-    /* background: #313131 url(../images/sequoia-ca-dec-2020-ashley-xu-mobile.jpg) no-repeat center; */
-    background: #000;
+    background: #313131 url(../images/sequoia-ca-dec-2020-ashley-xu-mobile.jpg) no-repeat center;
   }
 }
 
