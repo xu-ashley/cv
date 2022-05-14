@@ -1666,6 +1666,7 @@ header .logo a {
 @media only screen and (max-width:768px) {
   #intro {
     min-height: 660px;
+    background: #000;
   }
 
   .intro-content h1 {
@@ -1692,7 +1693,6 @@ header .logo a {
 @media only screen and (max-width:600px) {
   #intro {
   /* background: #151515 url(../images/yosemite-jan-2021-ashley-xu-mobile.jpg) no-repeat center bottom; */
-  background: #000;
   }
 
   .intro-content h1 {
