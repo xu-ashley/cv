@@ -1649,6 +1649,13 @@ header .logo a {
  * Intro
  * ---------------------------------------------------------------
  */
+
+@media only screen and (max-width: 1366){
+  #intro{
+    background: #000;
+  }
+}
+
 @media only screen and (max-width:1024px) {
   .intro-content h1 {
     font-size: 7.6rem;
@@ -1668,7 +1675,6 @@ header .logo a {
     min-height: 660px;
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background: #000;
   }
 
   .intro-content h1 {
