@@ -1668,6 +1668,7 @@ header .logo a {
     min-height: 660px;
     padding-top: 12rem;
     padding-bottom: 12rem;
+    background: #000;
   }
 
   .intro-content h1 {
