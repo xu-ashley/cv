@@ -1511,7 +1511,7 @@ header .logo a {
 #intro {
   /* background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom; */
   background: #151515 url(../images/yosemite-jan-2021-ashley-xu-2400x1600.jpg) no-repeat center bottom;
-  background-color: white;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
